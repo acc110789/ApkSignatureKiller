@@ -227,7 +227,7 @@ public class NKillSignatureTool {
                 | data[off] & 0xFF;
     }
 
-    private static byte[] getApkSignatureData(File apkFile) throws Exception {
+    public static byte[] getApkSignatureData(File apkFile) throws Exception {
         ZipFile zipFile = new ZipFile(apkFile);
         Enumeration<ZipEntry> entries = zipFile.getEntries();
         while (entries.hasMoreElements()) {

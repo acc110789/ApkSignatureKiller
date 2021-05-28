@@ -2,3 +2,4 @@ out/
 *.apk
 .idea/
 .idea/misc.xml
+build/
